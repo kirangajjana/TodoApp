@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    border:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: rgb(156, 235, 208);
+}
+#header{
+    height:50px;
+    width:100%;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+}
+#footer{
+    height:50px;
+    width:100%;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    position: absolute;
+    bottom:0;
+
+}
