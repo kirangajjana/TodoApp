@@ -18,5 +18,4 @@ lightmode.addEventListener('click',function()
 
 let button1=document.querySelector('#button1');
 let input=document.querySelector('#input');
-
-input+=input.value
+let content=document.querySelector('#content') //inner text
