@@ -13,3 +13,10 @@ lightmode.addEventListener('click',function()
 {
     body.style.backgroundColor='rgb(156, 235, 208)';
 });
+
+// ###################################################################
+
+let button1=document.querySelector('#button1');
+let input=document.querySelector('#input');
+
+input+=input.value

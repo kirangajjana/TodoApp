@@ -121,11 +121,32 @@ body{
     position:absolute;
     display: flex;
     align-items: center;
-    left:50%;
+    left:48%;
     top:20%;
     text-align: center;
 }
 #todo{
     position: absolute;
+    left:28%;
+}
+#maindiv{
+    height:200px;
+    width:40%;
+    background-color: chocolate;
+    position: absolute;
+    left:34%;
+    top:30%;
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+}
+#input{
+    position: absolute;
     left:30%;
+    top:20%;
+}
+#button1{
+    position: absolute;
+    left:70%;
+    top:20%;
 }
