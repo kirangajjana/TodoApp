@@ -14,15 +14,103 @@ body{
     width:100%;
     background-color: white;
     border-color: black;
-    border-width: 10px;
+    border-style: groove;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    place-items: center;
+
+
 }
 #footer{
     height:50px;
     width:100%;
     background-color: white;
     border-color: black;
-    border-width: 10px;
     position: absolute;
     bottom:0;
+    border-style: groove;
 
+}
+#home{
+    height:40px;
+    width:100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    border-width: 2px;
+}
+#home:hover{
+    background-color: red;
+}
+#about{
+    height:40px;
+    width:100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    border-width: 2px;
+}
+#about:hover{
+    background-color: red;
+}
+#darkmode{
+    height:40px;
+    width:100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    border-width: 2px;
+}
+#darkmode:hover{
+    background-color: red;
+}
+#lightmode{
+    height:40px;
+    width:100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    border-width: 2px;
+}
+#lightmode:hover{
+    background-color: red;
+}
+#homefont{
+    position:absolute;
+    margin-top:10px;
+    margin-left: 31px;
+}
+#homefont:hover{
+    background-color: red;
+}
+#Aboutfont{
+    position:absolute;
+    margin-top:10px;
+    margin-left: 31px;
+}
+#Aboutfont:hover{
+    background-color: red;
+}
+#Darkfont{
+    position:absolute;
+    margin-top:10px;
+    margin-left: 20px;
+}
+#Darkfont:hover{
+    background-color: red;
+}
+#Lightfont{
+    position:absolute;
+    margin-top:10px;
+    margin-left: 20px;
+
+}
+#Lightfont:hover{
+    background-color: red;
 }
