@@ -114,3 +114,18 @@ body{
 #Lightfont:hover{
     background-color: red;
 }
+#div{
+    background-color: cadetblue;
+    height:30px;
+    width:150px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    left:50%;
+    top:20%;
+    text-align: center;
+}
+#todo{
+    position: absolute;
+    left:30%;
+}
