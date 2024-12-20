@@ -136,9 +136,12 @@ body{
     position: absolute;
     left:34%;
     top:30%;
-    display: flexbox;
+    display: flex;
     justify-content: space-around;
-    align-items: center;
+   
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 #input{
     position: absolute;
