@@ -63,6 +63,4 @@ This is a simple Todo List web application built using HTML, CSS, and JavaScript
 
 you can find the demo by clicking -> [here](https://kirangajjana.github.io/TodoApp/)
 
-## Conclusion
 
-This simple Todo List app demonstrates the basic functionality of adding and deleting tasks using JavaScript. You can further extend this app by adding features like task persistence (localStorage) or adding priority levels, deadlines, etc.
