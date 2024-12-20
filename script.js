@@ -45,7 +45,14 @@ button1.addEventListener('click', function() {
 
         // Add event listener to delete button
         deleteBtn.addEventListener('click', function() {
-            parent.removeChild(a); // Remove the todo item when delete button is clicked
+            let x=confirm("Are you you want to delete");
+            if(x==True)
+            {
+                parent.removeChild(a); 
+            }// Remove the todo item when delete button is clicked
+            else{
+                PaymentAddress;
+            }
         });
     }
 });
